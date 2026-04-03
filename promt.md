@@ -18,3 +18,26 @@ check the logo and branding of https://www.antac.ai/ for inspiration, but I want
 
 Remeber the name of the company is CIDEROS, and the key message is that we provide innovative solutions using computer vision. The logo and branding should reflect this message and help establish a strong visual identity for the business.
 "
+
+
+## Fonts
+Playfair Display
+Inter
+
+Lato
+
+Inter (ideal for UI), Roboto (versatile), Open Sans (high readability), Poppins (modern geometric), and Montserrat (bold titles)
+
+Inter: The premier choice for user interfaces and UI design, designed by Rasmus Andersson for high readability on screens.
+Roboto: A clean, modern sans-serif widely used for both body text and headlines.
+Open Sans: Highly readable and versatile, ideal for large content-heavy websites.
+Poppins: A modern, geometric font that offers a welcoming and stylish appearance.
+Montserrat: Excellent for bold headlines and modern, professional web designs.
+Lato: A professional, sleek font suitable for corporate websites and portfolios.
+Merriweather: A well-balanced serif font that performs exceptionally well for long-form reading and blogs.
+Playfair Display: A stylish choice for headlines, offering elegance for fashion or creative sites.
+Nunito: A rounded, balanced sans-serif that provides a soft, approachable feel.
+Raleway: An elegant option with a wide range of weights for headings. 
+Figma
+Figma
+ +4

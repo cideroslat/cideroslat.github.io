@@ -38,7 +38,17 @@ The site will be available at **http://localhost:4000**.
 
 Jekyll watches for file changes and rebuilds automatically. Refresh your browser to see updates.
 
-## 4. Build without serving (optional)
+## 4. Stop the local server
+
+Press **Ctrl+C** in the terminal where `jekyll serve` is running.
+
+If you started the server in the background (with `&`), find and kill the process:
+
+```bash
+kill $(lsof -ti :4000)
+```
+
+## 5. Build without serving (optional)
 
 To generate the `_site/` output without starting a server:
 
