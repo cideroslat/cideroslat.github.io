@@ -1,28 +1,23 @@
 ---
 ---
 
-// Custom brand overrides for VisionTech Solutions
-// These supplement the Jekyll Serif base theme styles.
+/*
+ * Custom overrides for VisionTech Solutions
+ * These supplement the Jekyll Serif base theme styles.
+ */
 
-// Brand accent color — deep blue conveying trust and technology
-$primary: #1a3a6b;
-$secondary: #0d9cdb;
-
-// Allow downstream imports to pick up overrides
-// (Serif compiles its own SCSS; this file is for any additional custom rules)
-
-// Hero headline size boost
+/* Hero headline */
 .intro h1 {
   font-size: 2.6rem;
   line-height: 1.2;
 }
 
-// Slightly tighter service card titles
+/* Service card titles */
 .service-title a {
   font-size: 1.15rem;
 }
 
-// Contact form field focus style
+/* Contact form field focus */
 .contact-form input:focus,
 .contact-form textarea:focus {
   outline: 2px solid #0d9cdb;
