@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0B2D3E;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0F4C5C;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Floating dashboard card -->
+  <rect x="30" y="60" width="290" height="260" rx="16" fill="#0F4C5C" stroke="#1A5F73" stroke-width="1.5"/>
+
+  <!-- Card header bar -->
+  <rect x="30" y="60" width="290" height="36" rx="16" fill="#0B2D3E"/>
+  <rect x="30" y="82" width="290" height="14" fill="#0B2D3E"/>
+  <!-- Traffic light dots -->
+  <circle cx="52" cy="78" r="5" fill="#E53935" opacity="0.7"/>
+  <circle cx="66" cy="78" r="5" fill="#F5A623" opacity="0.7"/>
+  <circle cx="80" cy="78" r="5" fill="#7ED321" opacity="0.7"/>
+  <text x="100" y="82" font-family="Inter, sans-serif" font-size="8" fill="#5A6B77">CIDEROS — Analytics Dashboard</text>
+
+  <!-- Chart area -->
+  <!-- Y-axis labels -->
+  <text x="42" y="120" font-family="Inter, sans-serif" font-size="7" fill="#5A6B77">100</text>
+  <text x="42" y="150" font-family="Inter, sans-serif" font-size="7" fill="#5A6B77"> 75</text>
+  <text x="42" y="180" font-family="Inter, sans-serif" font-size="7" fill="#5A6B77"> 50</text>
+  <text x="42" y="210" font-family="Inter, sans-serif" font-size="7" fill="#5A6B77"> 25</text>
+  <!-- Grid lines -->
+  <line x1="62" y1="117" x2="302" y2="117" stroke="#1A5F73" stroke-width="0.5"/>
+  <line x1="62" y1="147" x2="302" y2="147" stroke="#1A5F73" stroke-width="0.5"/>
+  <line x1="62" y1="177" x2="302" y2="177" stroke="#1A5F73" stroke-width="0.5"/>
+  <line x1="62" y1="207" x2="302" y2="207" stroke="#1A5F73" stroke-width="0.5"/>
+  <line x1="62" y1="117" x2="62" y2="215" stroke="#1A5F73" stroke-width="0.5"/>
+
+  <!-- Area chart fill -->
+  <path d="M62,200 Q92,185 112,160 Q140,125 172,130 Q212,140 242,120 Q270,105 302,110 L302,215 L62,215 Z"
+        fill="#00D4FF" opacity="0.12"/>
+  <!-- Line chart — model accuracy over time -->
+  <polyline points="62,200 92,185 112,160 140,125 172,130 212,140 242,120 270,105 302,110"
+            fill="none" stroke="#00D4FF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Data points -->
+  <circle cx="62"  cy="200" r="3.5" fill="#00D4FF"/>
+  <circle cx="92"  cy="185" r="3.5" fill="#00D4FF"/>
+  <circle cx="112" cy="160" r="3.5" fill="#00D4FF"/>
+  <circle cx="140" cy="125" r="5"   fill="#00D4FF" stroke="#0F4C5C" stroke-width="2"/>
+  <circle cx="172" cy="130" r="3.5" fill="#00D4FF"/>
+  <circle cx="212" cy="140" r="3.5" fill="#00D4FF"/>
+  <circle cx="242" cy="120" r="3.5" fill="#00D4FF"/>
+  <circle cx="270" cy="105" r="3.5" fill="#00D4FF"/>
+  <circle cx="302" cy="110" r="5"   fill="#E53935" stroke="#0F4C5C" stroke-width="2"/>
+
+  <!-- Second line — inference speed -->
+  <polyline points="62,195 92,188 112,182 140,175 172,168 212,160 242,155 270,148 302,145"
+            fill="none" stroke="#E53935" stroke-width="1.5" stroke-dasharray="4,3" stroke-linecap="round"/>
+
+  <!-- Legend -->
+  <line x1="75" y1="232" x2="92" y2="232" stroke="#00D4FF" stroke-width="2"/>
+  <text x="96" y="236" font-family="Inter, sans-serif" font-size="7" fill="#D8E4EA">Accuracy %</text>
+  <line x1="170" y1="232" x2="187" y2="232" stroke="#E53935" stroke-width="2" stroke-dasharray="4,3"/>
+  <text x="191" y="236" font-family="Inter, sans-serif" font-size="7" fill="#D8E4EA">Latency (ms)</text>
+
+  <!-- KPI cards row -->
+  <rect x="48" y="246" width="70" height="42" rx="6" fill="#0B2D3E"/>
+  <text x="83" y="262" font-family="Inter, sans-serif" font-size="7" fill="#5A6B77" text-anchor="middle">Precision</text>
+  <text x="83" y="278" font-family="Inter, sans-serif" font-size="14" fill="#00D4FF" font-weight="700" text-anchor="middle">98.4%</text>
+
+  <rect x="130" y="246" width="70" height="42" rx="6" fill="#0B2D3E"/>
+  <text x="165" y="262" font-family="Inter, sans-serif" font-size="7" fill="#5A6B77" text-anchor="middle">Recall</text>
+  <text x="165" y="278" font-family="Inter, sans-serif" font-size="14" fill="#00D4FF" font-weight="700" text-anchor="middle">96.1%</text>
+
+  <rect x="212" y="246" width="70" height="42" rx="6" fill="#0B2D3E"/>
+  <text x="247" y="262" font-family="Inter, sans-serif" font-size="7" fill="#5A6B77" text-anchor="middle">FPS</text>
+  <text x="247" y="278" font-family="Inter, sans-serif" font-size="14" fill="#E53935" font-weight="700" text-anchor="middle">60fps</text>
+
+  <!-- Person reading / reviewing figure -->
+  <!-- Chair -->
+  <rect x="370" y="280" width="90" height="12" rx="6" fill="#0F4C5C"/>
+  <rect x="375" y="292" width="10" height="40" rx="5" fill="#0B2D3E"/>
+  <rect x="445" y="292" width="10" height="40" rx="5" fill="#0B2D3E"/>
+  <rect x="440" y="220" width="12" height="72" rx="6" fill="#0F4C5C"/>
+
+  <!-- Legs -->
+  <rect x="390" y="290" width="12" height="45" rx="6" fill="#0B2D3E"/>
+  <rect x="415" y="290" width="12" height="45" rx="6" fill="#0B2D3E"/>
+  <ellipse cx="396" cy="335" rx="10" ry="5" fill="#1A1A2E"/>
+  <ellipse cx="421" cy="335" rx="10" ry="5" fill="#1A1A2E"/>
+
+  <!-- Body -->
+  <path d="M378,285 L378,240 Q378,215 405,212 Q432,215 432,240 L432,285Z" fill="#1A5F73"/>
+
+  <!-- Head -->
+  <circle cx="405" cy="195" r="22" fill="#C8956C"/>
+  <path d="M383,190 Q383,172 405,170 Q427,172 427,190 Q425,180 405,180 Q385,180 383,190Z" fill="#3D2B1A"/>
+
+  <!-- Arms holding tablet/clipboard -->
+  <path d="M378,248 L355,270" stroke="#C8956C" stroke-width="12" stroke-linecap="round" fill="none"/>
+  <path d="M432,248 L440,260" stroke="#C8956C" stroke-width="12" stroke-linecap="round" fill="none"/>
+
+  <!-- Tablet device being read -->
+  <rect x="338" y="260" width="52" height="68" rx="6" fill="#0B2D3E" stroke="#00D4FF" stroke-width="1.5"/>
+  <!-- Tablet screen content — mini chart -->
+  <rect x="344" y="267" width="40" height="30" rx="3" fill="#0F4C5C"/>
+  <polyline points="346,290 353,282 360,278 367,272 374,276 381,270"
+            fill="none" stroke="#00D4FF" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Tablet text lines -->
+  <rect x="344" y="302" width="40" height="4" rx="2" fill="#1A5F73"/>
+  <rect x="344" y="310" width="30" height="4" rx="2" fill="#1A5F73"/>
+  <rect x="344" y="318" width="35" height="4" rx="2" fill="#E53935" opacity="0.7"/>
+
+  <!-- Floating annotation bubble -->
+  <rect x="450" y="155" width="42" height="30" rx="6" fill="#0B2D3E" stroke="#00D4FF" stroke-width="1"/>
+  <path d="M454,185 L448,192 L462,185" fill="#0B2D3E" stroke="#00D4FF" stroke-width="1"/>
+  <text x="455" y="168" font-family="Inter, sans-serif" font-size="6.5" fill="#00D4FF">Model</text>
+  <text x="455" y="178" font-family="Inter, sans-serif" font-size="6.5" fill="#00D4FF">v2.4 ✓</text>
+
+  <!-- Ground shadow -->
+  <ellipse cx="405" cy="345" rx="45" ry="8" fill="#0B2D3E" opacity="0.25"/>
+</svg>

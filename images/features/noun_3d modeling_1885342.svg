@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+  <!-- Real-World Results — target / bullseye with rising bar chart -->
+  <!-- Bar chart base -->
+  <line x1="14" y1="66" x2="66" y2="66" stroke="#1A5F73" stroke-width="1.5"/>
+  <!-- Bars (results growing) -->
+  <rect x="16" y="54" width="10" height="12" rx="2" fill="#0F4C5C" stroke="#00D4FF" stroke-width="1"/>
+  <rect x="30" y="44" width="10" height="22" rx="2" fill="#0F4C5C" stroke="#00D4FF" stroke-width="1"/>
+  <rect x="44" y="32" width="10" height="34" rx="2" fill="#0F4C5C" stroke="#E53935" stroke-width="1.5"/>
+  <!-- Trend line -->
+  <polyline points="21,54 35,44 49,32" fill="none" stroke="#00D4FF" stroke-width="1.5" stroke-dasharray="3,2" stroke-linecap="round"/>
+  <!-- Rising arrow tip -->
+  <polyline points="45,28 49,32 53,28" fill="none" stroke="#00D4FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Target / bullseye (top right) -->
+  <circle cx="57" cy="22" r="16" fill="none" stroke="#E53935" stroke-width="2" opacity="0.3"/>
+  <circle cx="57" cy="22" r="10" fill="none" stroke="#E53935" stroke-width="2" opacity="0.6"/>
+  <circle cx="57" cy="22" r="5"  fill="none" stroke="#E53935" stroke-width="2"/>
+  <circle cx="57" cy="22" r="2"  fill="#E53935"/>
+  <!-- Crosshair lines -->
+  <line x1="57" y1="4"  x2="57" y2="10" stroke="#E53935" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+  <line x1="57" y1="34" x2="57" y2="40" stroke="#E53935" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+  <line x1="39" y1="22" x2="45" y2="22" stroke="#E53935" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+  <line x1="69" y1="22" x2="75" y2="22" stroke="#E53935" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+</svg>

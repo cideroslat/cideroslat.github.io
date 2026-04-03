@@ -1,5 +1,5 @@
 remote_theme: zerostaticthemes/jekyll-serif-theme
-title: "VisionTech Solutions"
+title: "CIDEROS"
 description: "Innovative computer vision solutions for modern businesses."
 baseurl: ""
 url: "https://cideroslat.github.io"
@@ -7,10 +7,10 @@ url: "https://cideroslat.github.io"
 permalink: pretty
 
 logo:
-  mobile: "images/logo/logo-mobile.svg"
+  mobile: "assets/images/logo/logo-mobile.svg"
   mobile_height: "32px"
   mobile_width: "32px"
-  desktop: "images/logo/logo.svg"
+  desktop: "assets/images/logo/logo.svg"
   desktop_height: "32px"
   desktop_width: "140px"
 
