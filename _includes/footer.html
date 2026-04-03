@@ -1,0 +1,19 @@
+{% assign t = site.data.translations[page.lang] %}
+{% if page.lang == 'es' %}{% assign lang_prefix = '/es' %}{% else %}{% assign lang_prefix = '' %}{% endif %}
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="footer-inner">
+          <h2 class="footer-title">{{ site.title }}</h2>
+          <ul>
+            <li><a href="{{ lang_prefix | append: '/' | relative_url }}">{{ t.nav.home }}</a></li>
+            <li><a href="{{ lang_prefix | append: '/services/' | relative_url }}">{{ t.nav.services }}</a></li>
+            <li><a href="{{ lang_prefix | append: '/about/' | relative_url }}">{{ t.nav.about }}</a></li>
+            <li><a href="{{ lang_prefix | append: '/contact/' | relative_url }}">{{ t.nav.contact }}</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
