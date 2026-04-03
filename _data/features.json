@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Computer Vision Expertise",
+    "description": "Years of hands-on experience building and deploying computer vision models across diverse industries.",
+    "image": {
+      "url": "images/features/noun_branding_1885335.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "End-to-End Solutions",
+    "description": "From data collection and model training to production deployment, we handle the full pipeline.",
+    "image": {
+      "url": "images/features/noun_The Process_1885341.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Real-World Results",
+    "description": "Our solutions are designed to solve real business problems — not just pass benchmarks.",
+    "image": {
+      "url": "images/features/noun_3d modeling_1885342.svg",
+      "width": 80,
+      "height": 80
+    }
+  }
+]
