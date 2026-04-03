@@ -1,6 +1,7 @@
 ---
 title: "Services"
 layout: services
+lang: en
 description: "We offer a full range of computer vision and AI consulting services — from prototype to production."
 intro_image: "images/illustrations/reading.svg"
 intro_image_absolute: true

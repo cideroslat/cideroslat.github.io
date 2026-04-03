@@ -1,0 +1,13 @@
+<div class="language-selector">
+  {% if page.lang == 'es' %}
+    {% assign en_url = page.url | remove_first: '/es' %}
+    {% if en_url == '' %}{% assign en_url = '/' %}{% endif %}
+    <a href="{{ en_url | relative_url }}">EN</a>
+    <span>|</span>
+    <span class="lang-active">ES</span>
+  {% else %}
+    <span class="lang-active">EN</span>
+    <span>|</span>
+    <a href="{{ '/es' | append: page.url | relative_url }}">ES</a>
+  {% endif %}
+</div>

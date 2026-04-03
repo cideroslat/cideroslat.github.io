@@ -1,8 +1,9 @@
 ---
-title: "Contact Us"
+title: "Contáctenos"
 layout: contact
-lang: en
-description: "Have a project in mind or want to learn more about our computer vision services? We'd love to hear from you."
+lang: es
+permalink: /es/contact/
+description: "¿Tiene un proyecto en mente o desea conocer más sobre nuestros servicios de visión por computadora? Nos encantaría escucharle."
 ---
 
 {% assign t = site.data.translations[page.lang] %}
@@ -25,4 +26,3 @@ description: "Have a project in mind or want to learn more about our computer vi
   <input type="hidden" name="_subject" value="{{ t.contact_page.subject }}" />
   <button type="submit" class="button button-primary">{{ t.contact_page.submit_label }}</button>
 </form>
-

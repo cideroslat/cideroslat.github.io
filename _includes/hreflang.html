@@ -1,0 +1,9 @@
+{% if page.lang == 'es' %}
+  {% assign en_url = page.url | remove_first: '/es' %}
+  {% if en_url == '' %}{% assign en_url = '/' %}{% endif %}
+  <link rel="alternate" hreflang="en" href="{{ en_url | absolute_url }}" />
+  <link rel="alternate" hreflang="es" href="{{ page.url | absolute_url }}" />
+{% else %}
+  <link rel="alternate" hreflang="en" href="{{ page.url | absolute_url }}" />
+  <link rel="alternate" hreflang="es" href="{{ '/es' | append: page.url | absolute_url }}" />
+{% endif %}

@@ -1,6 +1,7 @@
 ---
 title: "Innovative Computer Vision Solutions"
 layout: home
+lang: en
 description: "We help businesses see what matters most — using the power of computer vision and AI to automate, optimize, and innovate."
 intro_image: "images/illustrations/pointing.svg"
 intro_image_absolute: true

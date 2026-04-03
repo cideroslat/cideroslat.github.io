@@ -1,6 +1,7 @@
 ---
 title: "About Us"
 layout: page
+lang: en
 description: "We are a team of computer vision engineers and AI researchers dedicated to building solutions that make businesses smarter and more efficient."
 bodyClass: page-about
 ---

@@ -24,6 +24,9 @@ collections:
   services:
     output: true
     sort_by: weight
+  services_es:
+    output: true
+    sort_by: weight
   team:
     output: true
 
@@ -33,6 +36,12 @@ defaults:
       type: "services"
     values:
       layout: "service"
+  - scope:
+      path: ""
+      type: "services_es"
+    values:
+      layout: "service"
+      lang: "es"
   - scope:
       path: ""
       type: "team"
@@ -46,6 +55,9 @@ plugins:
   - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
+
+include:
+  - _pages
 
 exclude:
   - Gemfile

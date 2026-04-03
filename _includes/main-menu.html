@@ -1,0 +1,27 @@
+{% assign t = site.data.translations[page.lang] %}
+{% if page.lang == 'es' %}
+  {% assign pfx = '/es' %}
+{% else %}
+  {% assign pfx = '' %}
+{% endif %}
+{% assign home_url = pfx | append: '/' %}
+{% assign services_url = pfx | append: '/services/' %}
+{% assign about_url = pfx | append: '/about/' %}
+{% assign contact_url = pfx | append: '/contact/' %}
+
+<div id="main-menu" class="main-menu">
+  <ul>
+    <li{% if page.url == home_url %} class="active"{% endif %}>
+      <a href="{{ home_url | relative_url }}">{{ t.nav.home | default: 'Home' }}</a>
+    </li>
+    <li{% if page.url == services_url %} class="active"{% endif %}>
+      <a href="{{ services_url | relative_url }}">{{ t.nav.services | default: 'Services' }}</a>
+    </li>
+    <li{% if page.url == about_url %} class="active"{% endif %}>
+      <a href="{{ about_url | relative_url }}">{{ t.nav.about | default: 'About' }}</a>
+    </li>
+    <li{% if page.url == contact_url %} class="active"{% endif %}>
+      <a href="{{ contact_url | relative_url }}">{{ t.nav.contact | default: 'Contact' }}</a>
+    </li>
+  </ul>
+</div>

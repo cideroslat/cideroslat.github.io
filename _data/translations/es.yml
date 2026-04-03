@@ -1,0 +1,42 @@
+nav:
+  home: "Inicio"
+  services: "Servicios"
+  about: "Nosotros"
+  contact: "Contacto"
+
+hero:
+  headline: "Vea el mundo con nuevos ojos gracias a la Visión por Computadora."
+  subheadline: "Desarrollamos sistemas de visión inteligentes que transforman la operación de los negocios — desde inspección automatizada de calidad hasta detección de objetos y analítica de video en tiempo real."
+  cta: "Explorar Nuestros Servicios"
+  cta_url: "/es/services/"
+
+services_page:
+  title: "Servicios"
+  description: "Ofrecemos una gama completa de servicios de consultoría en visión por computadora e inteligencia artificial — desde el prototipo hasta la producción."
+  heading: "Soluciones que impulsan su negocio."
+  intro: "Nuestros servicios de visión por computadora están diseñados para resolver retos reales. Ya sea que necesite automatizar inspecciones, analizar flujos de video o detectar anomalías en tiempo real, tenemos la experiencia para entregarlo."
+  view_all: "Ver Todos los Servicios"
+
+about_page:
+  title: "Nosotros"
+  description: "Somos un equipo de ingenieros de visión por computadora e investigadores de IA dedicados a construir soluciones que hacen los negocios más inteligentes y eficientes."
+
+contact_page:
+  title: "Contáctenos"
+  description: "¿Tiene un proyecto en mente o desea conocer más sobre nuestros servicios de visión por computadora? Nos encantaría escucharle."
+  intro: "Ya sea que tenga un proyecto específico en mente o simplemente quiera explorar lo que es posible con la visión por computadora, contáctenos — con gusto conversamos."
+  name_label: "Nombre"
+  email_label: "Correo electrónico"
+  message_label: "Mensaje"
+  submit_label: "Enviar mensaje"
+  subject: "Nueva consulta desde el sitio web de VisionTech Solutions (ES)"
+
+contact_button_label: "Contacto"
+
+features:
+  - title: "Experiencia en Visión por Computadora"
+    description: "Años de experiencia práctica desarrollando e implementando modelos de visión por computadora en diversas industrias."
+  - title: "Soluciones Integrales"
+    description: "Desde la recolección de datos y el entrenamiento del modelo hasta el despliegue en producción, gestionamos todo el proceso."
+  - title: "Resultados en el Mundo Real"
+    description: "Nuestras soluciones están diseñadas para resolver problemas reales de negocio — no solo para superar métricas de laboratorio."

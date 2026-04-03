@@ -1,0 +1,42 @@
+nav:
+  home: "Home"
+  services: "Services"
+  about: "About"
+  contact: "Contact"
+
+hero:
+  headline: "See the world differently with Computer Vision."
+  subheadline: "We build intelligent vision systems that transform how businesses operate — from automated quality inspection and real-time object detection to advanced video analytics."
+  cta: "Explore Our Services"
+  cta_url: "/services/"
+
+services_page:
+  title: "Services"
+  description: "We offer a full range of computer vision and AI consulting services — from prototype to production."
+  heading: "Solutions that power your business."
+  intro: "Our computer vision services are designed to solve real-world challenges. Whether you need to automate inspections, analyze video streams, or detect anomalies in real time, we have the expertise to deliver."
+  view_all: "View All Services"
+
+about_page:
+  title: "About Us"
+  description: "We are a team of computer vision engineers and AI researchers dedicated to building solutions that make businesses smarter and more efficient."
+
+contact_page:
+  title: "Contact Us"
+  description: "Have a project in mind or want to learn more about our computer vision services? We'd love to hear from you."
+  intro: "Whether you have a specific project in mind or just want to explore what's possible with computer vision, reach out — we're happy to talk."
+  name_label: "Name"
+  email_label: "Email"
+  message_label: "Message"
+  submit_label: "Send Message"
+  subject: "New enquiry from VisionTech Solutions website"
+
+contact_button_label: "Contact"
+
+features:
+  - title: "Computer Vision Expertise"
+    description: "Years of hands-on experience building and deploying computer vision models across diverse industries."
+  - title: "End-to-End Solutions"
+    description: "From data collection and model training to production deployment, we handle the full pipeline."
+  - title: "Real-World Results"
+    description: "Our solutions are designed to solve real business problems — not just pass benchmarks."
